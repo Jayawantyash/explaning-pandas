@@ -1,0 +1,29 @@
+#df = pd.read_csv(r'C:\Users\YASH\Downloads\data.csv') here tells us the path of the file
+
+# Explore data in python
+# Full dataframe
+# How many rows & columns. you have to chk the row becuase the no. of raw should matched with client data 
+# len(stats) #195 rows imported (this is for tracking later part )
+# see columns df.columns
+# Number of columns len(df.columns)
+# top rows df.head()
+# Bottom rows df.tail()
+# information of the column df.info()
+# get stats on the columns df.describe() it will work like a statistic fun
+# stats.describe().transpose() #transpose convert column into rows
+# combine the two df[4:8][['CountryName','BirthRate']]
+
+
+
+
+
+# In this section we learned
+
+1> importing data into python
+2> Dataframe via panda
+3> exploring datasets: head()tail()info()describe()
+4> Renaming columns
+5> subsetting dataframes
+6> Basic operations with dataframe
+8> filtering data frames
+9> seaborn introduction
